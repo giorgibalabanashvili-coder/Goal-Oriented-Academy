@@ -1,0 +1,11 @@
+a{
+    color: red;
+    text-decoration: none ;
+}
+p{
+    color: red;
+    text-decoration-line: line-through;   
+    text-decoration-color: green;         
+    text-decoration-thickness: 2px;
+    
+}

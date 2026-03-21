@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-color:rgb(0, 30, 128);
+    text-decoration-style: dashed;
+    text-decoration-thickness:initial; 
+}
+p{
+    color: red;
+    text-decoration-line: overline;
+    text-decoration-color:rgb(0, 46,12);
+    text-decoration-style: dashed;
+    text-decoration-thickness:initial; 
+}
