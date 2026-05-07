@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width:700px ;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+
+}
+.flex-row{
+    display: flex;
+    gap: 15px;
+}
+.box {
+    background-color: #ffa07a;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.item-a{
+    width: 95vh;
+
+}
+.item-b{
+    width: 60vh;
+}
+.item-c{
+    width: 35vh;
+}
+.item-d{
+    width: 35vh;
+}
+.item-e{
+    width: 60vh;
+}

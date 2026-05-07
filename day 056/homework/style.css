@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    background-color: aqua;
+    flex-direction: column;
+    position: relative;
+
+}
+#child-1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: static;
+}
+    
+#child-2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 400px;
+    bottom: 200px;
+    background-color: green;
+} 
+#child-3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position:absolute ;
+    /* შვილი ელემენტი მიეკრობა მშობელი ელემენტის ზედა მარჯვენა კუთხეს */
+}
+#child-4{
+    position: fixed;
+    top: 0;
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid-div{
+    width: 1100px;
+    height: 500px;
+    
+    
+    display: grid;
+    grid-template:repeat(2,1fr)/repeat(3,1fr);
+    gap: 20px;
+    
+}
+.child{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+
+    
+
+}
+.child div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#div-1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjVV4_yJWOsjGGQqtCVQtPHzbT8IPXY4Ykhw&s);
+    
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+#pp{
+    background-color: rgba(15, 18, 192, 0.3);
+}
+#div-2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Burj_Khalifa_2021.jpg/250px-Burj_Khalifa_2021.jpg);
+}
+#hh{
+    background-color: rgba(223, 226, 21, 0.3);
+}
+#div-3{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1400&h=-1&s=1);
+}
+#ch{
+    background-color: rgba(233, 4, 4, 0.3);
+}
+#div-4{
+    background-image: url(https://storage.georgia.travel/images/exploring-tbilisi.webp);
+}
+#cb{
+    background-color: rgba(57, 223, 6, 0.3);
+}
+#div-5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVALvxP30ycdpAP8SvKfP9DbOr0BOJzAd1XQ&s);
+}
+#ko{
+    background-color:rgba(15, 18, 192, 0.3); 
+}
+#div-6{
+    background-image: url(https://i.natgeofe.com/n/0f550dab-11fc-460e-a39b-030b6e5cbf06/practicalguide.jpg);
+}
+#mm{
+    background-color: rgba(255, 0, 0, 0.3);
+}

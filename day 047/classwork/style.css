@@ -1,0 +1,11 @@
+ol{
+    list-style: disc;
+}
+ul{
+    list-style-type: decimal;
+}
+ul li{
+    list-style-type: square;
+    color: blue;
+}
+    

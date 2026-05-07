@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: blue;
+    background-color: aqua
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    flex-direction: column;
+
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+body{
+    background-color: aquamarine;
+}
+.muku{
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+#container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-weight: 700;
+}
+.reset{
+    width:150px ;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+label{
+    font-weight: 800;
+}

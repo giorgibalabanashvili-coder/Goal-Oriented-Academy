@@ -1,0 +1,39 @@
+<!-- box-model განსაზღვრავს იმას თუ როგორ გამოვთვალოთ ელემენტის ზომა ან როგორ განვსაზღვროთ სივრცე მის გარშემო -->
+<!-- box-model-ს გააჩნია 4 ძირიტადი ნაწილი:content,padding,border,margin -->
+<!-- content ში მოთავსებულია საიტის ინფორმაცია -->
+<!-- padding არის ზღვარი საიტის კონტენტსა და border-ს შორის -->
+<!-- border არის ხაზი რომელიც გარს აკრავს padding-ს -->
+<!-- margin საშულებას გვაძლევს ერთმანეთისგან დავაშოროთ ელემენტები -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="container">
+        <h1>register</h1>
+        <form class="form" >
+            <input type="text" placeholder="enter your name" name="first name" required class="muku">
+            <br><br>
+            <input type="text" placeholder="enter your email" name="email" required class="muku">
+            <br><br>
+            <input type="text" placeholder="enter your password" name="password" required class="muku">
+            <br><br>
+            <label class="label" >chooe your gender:</label>
+            <div class="input">
+                <input type="radio"id="male"name="gender"value="male">
+                <label for="male">male</label>
+                <br><br>
+                <input type="radio"id="female" name="gender"value="female">
+                <label for="female">female</label>
+            </div>
+                <button>register</button>
+                <input type="reset" class="reset">
+            
+        </form>
+        </div>
+    </body>
+</html>

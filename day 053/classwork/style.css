@@ -1,0 +1,28 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px; 
+}
+
+.box {
+  background-color: red;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color:black;
+}
+
+
+.full { width: 100%; }
+.wide { flex: 2; }
+.small { flex: 1; }
+
+
