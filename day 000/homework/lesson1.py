@@ -3,7 +3,7 @@ from turtle import *
 #we want to pain a house
 #step 1:draw a square
 shape("turtle")
-speed(7)
+speed(1)
 color("blue")
 width(7)
 forward(200)
